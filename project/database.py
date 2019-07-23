@@ -20,6 +20,9 @@ else:
 
 Session = sessionmaker(bind=engine)
 
+# 테이블 생성 코드
+# from models import Base
+# Base.metadata.create_all(engine)
 
 @contextmanager
 def session_scope(session=None):

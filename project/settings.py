@@ -8,12 +8,12 @@ DEBUG = True
 
 DATABASE = {
     'postgre': {
-        'id': 'postgre',
+        'id': 'postgres',
         'passwd': 'test123',
-        'name': 'smart',
+        'name': 'test',
         'host': 'localhost',
         'port': '5432',
-        'isolation_level': '',
+        'isolation_level': 'READ UNCOMMITTED',
         
     }
 }
